@@ -1,3 +1,5 @@
+[![Poppy Seed](https://img.shields.io/badge/PoopySeed-v0.1.1-blue.svg)](https://github.com/sonelu/Poppy-Seed)
+
 # Poppy-Seed
 
 This is the little sibling (sister?) of the [Poppy Humanoid](https://github.com/poppy-project/poppy-humanoid) robot developed by the [Poppy Project](https://github.com/poppy-project) team.
