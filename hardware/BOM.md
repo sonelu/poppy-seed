@@ -9,7 +9,7 @@ This is the list of materials that are needed for the Poppy Seed:
 <tr><td><i>Arms</i></td></tr>
 <tr><td>Hand left</td><td align=center>1</td><td>[link to the STL]</td></tr>
 <tr><td>Hand right</td><td align=center>1</td><td>[link to the STL]</td></tr>
-<tr><td>Forearm left</td><td align=center>1</td><td>[link to the STL]</td></tr>
+<tr><td>Forearm left</td><td align=center>1</td><td>[link to the STL](https://github.com/sonelu/Poppy-Seed/blob/master/hardware/3d%20parts/arms/forearm%20left%20small.stl)</td></tr>
 <tr><td>Forearm right</td><td align=center>1</td><td>[link to the STL]</td></tr>
 <tr><td>Upper arm</td><td align=center>2</td><td>[link to the STL]</td></tr>
 <tr><td>Arm connector</td><td align=center>2</td><td>[link to the STL]</td></tr>
