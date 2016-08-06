@@ -7,10 +7,10 @@ This is the list of materials that are needed for the Poppy Seed:
 <tr><td>Dynamixel XL-320</td><td align=center>25</td><td>All the motors for Poppy Seed are XL-320, a very cost effective variant of Dynamixel servomotors that have impressive capabilities in a diminutive body. Please refer to the document [Torque and design] to understand more about why they might work in this project.</td></tr>
 <tr><td colspan=4><b>3D printed parts</b></td></tr>
 <tr><td><i>Arms</i></td></tr>
-<tr><td>Hand left</td><td align=center>1</td><td>[link to the STL]</td></tr>
-<tr><td>Hand right</td><td align=center>1</td><td>[link to the STL]</td></tr>
-<tr><td>Forearm left</td><td align=center>1</td><td><a href="https://github.com/sonelu/Poppy-Seed/blob/master/hardware/3d%20parts/arms/forearm%20left%20small.stl">[link to the STL]</a></td></tr>
-<tr><td>Forearm right</td><td align=center>1</td><td>[link to the STL]</td></tr>
+<tr><td>Hand left</td><td align=center>1</td><td><a href="https://github.com/sonelu/Poppy-Seed/blob/master/hardware/3d%20parts/arms/hand%20left%20small.stl">link to the STL</a></td></tr>
+<tr><td>Hand right</td><td align=center>1</td><td><a href="https://github.com/sonelu/Poppy-Seed/blob/master/hardware/3d%20parts/arms/hand%20right%20small.stl">link to the STL</a></td></tr>
+<tr><td>Forearm left</td><td align=center>1</td><td><a href="https://github.com/sonelu/Poppy-Seed/blob/master/hardware/3d%20parts/arms/forearm%20left%20small.stl">link to the STL</a></td></tr>
+<tr><td>Forearm right</td><td align=center>1</td><td><a href="https://github.com/sonelu/Poppy-Seed/blob/master/hardware/3d%20parts/arms/forearm%20right%20small%20(check).stl">link to the STL</a></td></tr>
 <tr><td>Upper arm</td><td align=center>2</td><td>[link to the STL]</td></tr>
 <tr><td>Arm connector</td><td align=center>2</td><td>[link to the STL]</td></tr>
 <tr><td>Shoulder left</td><td align=center>1</td><td>[link to the STL]</td></tr>
