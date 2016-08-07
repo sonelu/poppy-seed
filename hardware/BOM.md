@@ -13,10 +13,10 @@ This is the list of materials that are needed for the Poppy Seed:
 <tr><td>Hand right</td><td align=center>1</td><td><a href="https://github.com/sonelu/Poppy-Seed/blob/master/hardware/3d%20parts/arms/hand%20right%20small.stl">link to the STL</a></td></tr>
 <tr><td>Forearm left</td><td align=center>1</td><td><a href="https://github.com/sonelu/Poppy-Seed/blob/master/hardware/3d%20parts/arms/forearm%20left%20small.stl">link to the STL</a></td></tr>
 <tr><td>Forearm right</td><td align=center>1</td><td><a href="https://github.com/sonelu/Poppy-Seed/blob/master/hardware/3d%20parts/arms/forearm%20right%20small%20(check).stl">link to the STL</a></td></tr>
-<tr><td>Upper arm</td><td align=center>2</td><td>[link to the STL]</td></tr>
-<tr><td>Arm connector</td><td align=center>2</td><td>[link to the STL]</td></tr>
-<tr><td>Shoulder left</td><td align=center>1</td><td>[link to the STL]</td></tr>
-<tr><td>Shoulder right</td><td align=center>1</td><td>[link to the STL]</td></tr>
+<tr><td>Upper arm</td><td align=center>2</td><td><a href="https://github.com/sonelu/Poppy-Seed/blob/master/hardware/3d%20parts/arms/upper%20arm%20small.stl">link to the STL</a></td></tr>
+<tr><td>Arm connector</td><td align=center>2</td><td><a href="https://github.com/sonelu/Poppy-Seed/blob/master/hardware/3d%20parts/arms/arm%20connector%20small.stl">link to the STL</a></td></tr>
+<tr><td>Shoulder left</td><td align=center>1</td><td><a href="https://github.com/sonelu/Poppy-Seed/blob/master/hardware/3d%20parts/arms/shoulder%20left%20small.stl">link to the STL</a></td></tr>
+<tr><td>Shoulder right</td><td align=center>1</td><td><a href="https://github.com/sonelu/Poppy-Seed/blob/master/hardware/3d%20parts/arms/shoulder%20right%20small.stl">link to the STL</a></td></tr>
 <tr><td><i>Body</i></td></tr>
 <tr><td>Chest</td><td align=center>1</td><td>[link to the STL]</td></tr>
 <tr><td>Spine</td><td align=center>1</td><td>[link to the STL]</td></tr>
