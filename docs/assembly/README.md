@@ -2,9 +2,10 @@
 
 This assembly guide will provide the main information about how to put together the parts.
 
-* Parts assembly
-** Upper arms assembly
-** Legs assembly
-** Torso assembly
-** Head assembly
-** Putting it all together
+
+1. Upper arms assembly
+2. Legs assembly
+3. Torso assembly
+4. Head assembly
+5. Putting all together
+
