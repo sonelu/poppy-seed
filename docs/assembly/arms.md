@@ -12,7 +12,7 @@ For the assembly of Poppy's left arm you will need:
 5. The left shoulder (we actually will not connect this one here; later when we connect the arm to the torso we will mount the shoulder)
 6. 3 Dynamixel XL-320 servos already configured with the IDs: 42, 43 and 44 (for right arm they will be 52, 53 and 54)
 7. 3 Dynamixel cables - the standard 110mm that came with the servos
-8. 24 2-step OLLO rivets
+8. 28 2-step OLLO rivets
 9. 1 3-step OLLO rivet
 
 We will start by connecting the left hand with the left forearm. Please meke sure the open face of the forearm points in the same direction as the thumb. The horn holes (the side with 4 holes) are on the exterior of the arm, while the idle (the side with one hole and bump) is on the interior of the arm.
