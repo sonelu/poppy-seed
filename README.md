@@ -16,7 +16,7 @@ Before going into the details of the project there are a few documents that may 
 Here are the main links to the project:
 * [BOM](hardware/BOM.md). The list of parts needed for the building of a Poppy Seed robot
 * [3D Model](https://cad.onshape.com/documents/56e0876fe4b0cd61903da4dc/w/bd94978c48e4f7f7abc728f0/e/cfad6e13d76618b39ab2a28a). This is the link to the OnShape 3D model of the Poppy Seed robot. You can access it freely and in case you want to participate in the development, please send me a share request.
-* [3D Parts](hardware/3d parts/README.md). This is the main page for the STLs for the robot.
+* [3D Parts](hardware/3d parts/). This is the main page for the STLs for the robot.
 * [Assembly guide](docs/assembly/README.md). This is the entry page for the robot assembly guide.
 * [Electronics]. This is the entry page for the electronics used in the project. Please read carefully before starting this project.
 * [Setup]. A document providing the steps needed to setup the robot for use.
