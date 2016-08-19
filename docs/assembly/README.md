@@ -12,7 +12,7 @@ The assembly guides are structured by part:
 
 1. [Upper arms assembly](arms.md)
 2. Legs assembly
-3. Torso assembly
+3. [Torso assembly](torso.md)
 4. Head assembly
 5. Putting all together
 
