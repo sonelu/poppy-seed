@@ -5,7 +5,7 @@ For Poppy Seed we will use LiPo batteries to power the Dynamixel bus as well as 
 * equal distribution of weight
 * more capacity (2 x 1000mA)
 * ability to swap the batteries one by one thus reducing the need to power down the electornics (mainly the Raspberry Pi)
-* because the batteries a positioned in the lowest possible poisiton it reduces the position of the center of mass for the robot, improving the stability
+* because the batteries a positioned in the lowest possible place it reduces the position of the center of mass for the robot, improving stability
 
 In order to be able to use 2 LiPo batteries in parallel and expecially to allow hot-swapping of the batteries (ex. removing one of the batteries that is discharged and replacing it with a fresh battery) we need to control the way the current flows between these batteries. If we connect the batteries blindly in parallel, when batteries are discharged (ex. aprox. 7V or bellow) and one of the batteries is replaced with a new battery (ex. aprox. 8.4V) the difference in potential between the two batteries will produce a so called "rush current" - practically it is as if the new battery is shorted. This is extrmely dangerous as the currents can reach (for short period of time, true) 2-3 times more than the dicharge current that the battery can support.
 
@@ -13,9 +13,9 @@ To avoid this scenario we need to place in series with the battery a diode that 
 
 The alternative is to use a diode with a forward voltage as lower as possible. This is what the Schottky diodes are for: their forward voltage is in the range 0.35V, some even lower. That means lower power consumption (and heat) as well as less loss of potential from the battery.
 
-The most elegant solution though is to use the Texas Instruments' [SM74611KTTR](http://uk.farnell.com/texas-instruments/sm74611kttr/hot-swap-controller-30v-to-263/dp/2492333) hot swap controller that is designed for the current flow in photovoltaic pannels. This is an actually complex device that includes a high power MOSFET (that ensures a low forward voltage) and a sophisticated charge pump and controller that ensures a very low power consumption and very high efficiency. The forward voltage these "smart bypass diodes" provide is typically 28mV!
+The most elegant solution though is to use the Texas Instruments' [SM74611KTTR](http://uk.farnell.com/texas-instruments/sm74611kttr/hot-swap-controller-30v-to-263/dp/2492333) hot swap controller that is designed for the current flow in photovoltaic pannels. This is an actually complex device that includes a high power MOSFET (that ensures a low forward voltage) and a sophisticated charge pump and controller that ensures a very low power consumption and very high efficiency. The forward voltage these "smart bypass diodes" is typically 28mV!
 
-The board for the Poppy Seed hot-swap is build with such a smart diode and it includes in addtion to this:
+The board for the Poppy Seed hot-swap is build with such a smart diode and it includes in addtion:
 
 * 2 [MOLEX connectors 52253 Micro-Latch](http://uk.farnell.com/molex/53253-0370/header-2-0mm-3way/dp/1756921)
 * One 2 pin standard 2.54 pin header
@@ -31,7 +31,7 @@ While the 2-pin head is on the other side:
 
 The connections are pretty intuitive:
 
-* the pin-head as seen from the side with the parts - the first picture above is connected with the right pin to the + of the battery and the left pin to the - of the battery. This is controlled by the hole at the back of the shin that allows you to connect the battery in only one way
+* the pin-head as seen from the side with the parts (the first picture above) is connected with the right pin to the + of the battery and the left pin to the - of the battery. This is controlled by the hole at the back of the shin that allows you to connect the battery in only one way
 * the + from the pin is connected to the anode of the diode (the pins)
 * the cathode of the diode (the DAP area) then connects to the VCC pins of the Dynamixel bus (center of the two MOLEX connectors)
 * the - from the battery connects to the GND pins of the Dynamixel bus (the lower pins in the first picture)
