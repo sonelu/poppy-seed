@@ -25,3 +25,18 @@ The two Molex connectors and the smart diode is placed on one face of the board:
 
 ![_DSF9071](img/_DSF9071.JPG)
 
+While the 2-pin head is on the other side:
+
+![_DSF9072](img/_DSF9072.JPG)
+
+The connections are pretty intuitive:
+
+* the pin-head as seen from the side with the parts - the first picture above is connected with the right pin to the + of the battery and the left pin to the - of the battery. This is controlled by the hole at the back of the shin that allows you to connect the battery in only one way
+* the + from the pin is connected to the anode of the diode (the pins)
+* the cathode of the diode (the DAP area) then connects to the VCC pins of the Dynamixel bus (center of the two MOLEX connectors)
+* the - from the battery connects to the GND pins of the Dynamixel bus (the lower pins in the first picture)
+* the 2 MOLEX pins are connected pin-to-pin as you can see in the second picture
+
+The board has 4 holes in the corners with 17.78mm horizontal distance between them (7 standard 0.1' holes) and 15.24mm vertical distance (6 holes). This is the distance between the supports in the shin.
+
+When the battery is connected in the 2 pins on the back side it will inject the voltage into the Dynamixel bus that is connected to the MOLEX connectors. If there is already voltage in the bus (for example there is already another battery on the chain) and that voltage is higher than the voltage of our battery then the diode will break the circuit and our battery will no longer be connected to the bus (this is the case of a discharged battery). If the voltage of our battery is higher than the existing voltage of the chain (if any) than the diode will let the current flow through the circuit, powering the bus.
