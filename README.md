@@ -1,4 +1,4 @@
-[![Poppy Seed](https://img.shields.io/badge/Poopy--Seed-v0.4.0-blue.svg)](https://github.com/sonelu/Poppy-Seed)
+[![Poppy Seed](https://img.shields.io/badge/Poopy--Seed-v1.0.0-blue.svg)](https://github.com/sonelu/Poppy-Seed)
 
 # Poppy-Seed
 
