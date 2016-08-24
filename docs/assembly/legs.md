@@ -17,10 +17,21 @@ For the assembly of Poppy's left leg you will need:
 10. one hot-swap board; you can get the information about this board [here]
 11. 40 2-step OLLO rivets
 12. 2 3-step OLLO rivet
+13. 4 M2x4mm self-tap screws (I'm using the ones from the Bioloid kit under the code S11 - but any self-tap screws that are 2mm in diameter should do it)
+
+We will first secure in postion the hot-swap board on the shin using the 4 self-tap screws:
 
 ![_DSF9073](./img/_DSF9073.JPG)
+
+The  hot-swap board has on the back side two jumper pins that should be perfectly aligned with the hole in the shin's back. You can test that by using a LiPo battery pushing the power connector of the battery through the hole and making sure that is connects true with the pins in the hot-swap board. It would also be good to verify at this moment that this hole has preserved it's shape and allows you to connect the battery plug only one way around, preventing you to insert it the wrong way around:
+
 ![_DSF9074](./img/_DSF9074.JPG)
+
+Take the servo id 15 (25 for the right foot) and connect the short Dynamixel cable (or a normal one if you cannot make the shorter ones) as shown in the picture (for the right foot the servo will be facing the other way around - remember in the Poppy Seed the horns are always on the outside):
+
 ![_DSF9075](./img/_DSF9075.JPG)
+
+
 ![_DSF9076](./img/_DSF9076.JPG)
 ![_DSF9077](./img/_DSF9077.JPG)
 ![_DSF9078](./img/_DSF9078.JPG)
