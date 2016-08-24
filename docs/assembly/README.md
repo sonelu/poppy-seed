@@ -11,7 +11,7 @@ A few preliminary instructions are applicable to all parts assembly:
 The assembly guides are structured by part:
 
 1. [Upper arms assembly](arms.md)
-2. Legs assembly
+2. [Legs assembly](legs.md)
 3. [Torso assembly](torso.md)
 4. Head assembly
 5. Putting all together
