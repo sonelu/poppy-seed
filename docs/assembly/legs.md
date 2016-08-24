@@ -1,6 +1,6 @@
 # Legs assembly
 
-I will show you here only the assembly steps for the **left leg**. The right leg follows the same steps except that some parts are in mirror. I will give you the appropriate hints bellow when thee is someting you need to take care.
+I will show you here only the assembly steps for the **left leg**. The right leg follows the same steps except that some parts are in mirror. I will give you the appropriate hints bellow when there is someting you need to take care.
 
 For the assembly of Poppy's left leg you will need:
 ![_DSF9070](./img/_DSF9070.JPG)
@@ -15,8 +15,8 @@ For the assembly of Poppy's left leg you will need:
 8. 1 160mm Dynamixel cable
 9. 1 short Dynamixel cable - these are cables that were made from one standard XL-320 cable that was cut in two and connectors were added to the cut sides. Unlike the AX cables, Robotis does not sell cables shorter than 110mm for XL-320 and for some assemblies that is too long and can get in the way of other moving parts. We might try to see if it would be possible to produce some custom cables that can be commercialized in the future, but if you are really interested in robotics with Dynamixel servos it might be a good idea to invest in a relativelly unexpensive but reliable crimper and stripper. Alternativelly you can chose to use the standard 110mm cables instead of the shortered ones, but be careful obout how they are routed.
 10. one hot-swap board; you can get the information about this board [here]
-11. 40 2-step OLLO rivets
-12. 2 3-step OLLO rivet
+11. 44 2-step OLLO rivets
+12. 3 3-step OLLO rivet
 13. 4 M2x4mm self-tap screws (I'm using the ones from the Bioloid kit under the code S11 - but any self-tap screws that are 2mm in diameter should do it)
 
 We will first secure in postion the hot-swap board on the shin using the 4 self-tap screws:
