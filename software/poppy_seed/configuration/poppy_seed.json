@@ -6,7 +6,8 @@
       "attached_motors": [
         "torso",
         "head",
-        "arms"
+        "arms",
+        "legs"
       ],
       "port": "auto"
     }
