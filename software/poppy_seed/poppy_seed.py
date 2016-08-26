@@ -28,3 +28,6 @@ class PoppySeed(AbstractPoppyCreature):
 		for m in robot.torso:
 			m.compliant_behavior = 'safe'
 
+        # basic primitives:
+        robot.attach_primitive(StandPosition(robot), 'stand_position')
+        robot.attach_primitive(SitPosition(robot), 'sit_position')
