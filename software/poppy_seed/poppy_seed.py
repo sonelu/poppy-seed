@@ -29,5 +29,5 @@ class PoppySeed(AbstractPoppyCreature):
 			m.compliant_behavior = 'safe'
 
         # basic primitives:
-        robot.attach_primitive(StandPosition(robot), 'stand_position')
-        robot.attach_primitive(SitPosition(robot), 'sit_position')
+		robot.attach_primitive(StandPosition(robot), 'stand_position')
+		robot.attach_primitive(SitPosition(robot), 'sit_position')
