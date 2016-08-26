@@ -13,20 +13,14 @@
   },
   "motorgroups": {
     "head": [
-      "head_z"
+      "head_z",
+      "head_y"
     ],
     "r_arm": [
       "r_shoulder_y",
       "r_shoulder_x",
       "r_arm_z",
       "r_elbow_y"
-    ],
-    "torso": [
-      "bust_y",
-      "bust_x",
-      "abs_y",
-      "abs_x",
-      "abs_z"
     ],
     "l_arm": [
       "l_shoulder_y",
@@ -37,9 +31,140 @@
     "arms": [
       "l_arm",
       "r_arm"
+    ],
+    "torso": [
+      "bust_y",
+      "bust_x",
+      "abs_y",
+      "abs_x",
+      "abs_z"
+    ],
+    "r_leg_sagitall": [
+      "r_hip_y",
+      "r_knee_y",
+      "r_ankle_y"
+    ],
+    "r_leg": [
+      "r_hip_x",
+      "r_hip_z",
+      "r_leg_sagitall"
+    ],
+    "l_leg_sagitall": [
+      "l_hip_y",
+      "l_knee_y",
+      "l_ankle_y"
+    ],
+    "l_leg": [
+      "l_hip_x",
+      "l_hip_z",
+      "l_leg_sagitall"
+    ],
+    "legs": [
+      "l_leg",
+      "r_leg"
     ]
   },
   "motors": {
+    "l_hip_x": {
+      "offset": 0.0,
+      "type": "XL-320",
+      "id": 11,
+      "angle_limit": [
+        -30,
+        28.5
+      ],
+      "orientation": "direct"
+    },
+    "l_hip_z": {
+      "offset": 0,
+      "type": "XL-320",
+      "id": 12,
+      "angle_limit": [
+        -25,
+        90
+      ],
+      "orientation": "indirect"
+    },
+    "l_hip_y": {
+      "offset": 2.0,
+      "type": "XL-320",
+      "id": 13,
+      "angle_limit": [
+        -104,
+        84
+      ],
+      "orientation": "direct"
+    },
+    "l_knee_y": {
+      "offset": 0.0,
+      "type": "XL-320",
+      "id": 14,
+      "angle_limit": [
+        -3.5,
+        134
+      ],
+      "orientation": "direct"
+    },
+    "l_ankle_y": {
+      "offset": 0.0,
+      "type": "XL-320",
+      "id": 15,
+      "angle_limit": [
+        -45,
+        45
+      ],
+      "orientation": "direct"
+    },
+    "r_hip_x": {
+      "offset": 0.0,
+      "type": "XL-320",
+      "id": 21,
+      "angle_limit": [
+        -28.5,
+        30
+      ],
+      "orientation": "direct"
+    },
+    "r_hip_z": {
+      "offset": 0,
+      "type": "XL-320",
+      "id": 22,
+      "angle_limit": [
+        -90,
+        25
+      ],
+      "orientation": "indirect"
+    },
+    "r_hip_y": {
+      "offset": 0.0,
+      "type": "XL-320",
+      "id": 23,
+      "angle_limit": [
+        -85,
+        105
+      ],
+      "orientation": "indirect"
+    },
+    "r_knee_y": {
+      "offset": 0.0,
+      "type": "XL-320",
+      "id": 24,
+      "angle_limit": [
+        -134,
+        3.5
+      ],
+      "orientation": "indirect"
+    },
+    "r_ankle_y": {
+      "offset": 0.0,
+      "type": "XL-320",
+      "id": 25,
+      "angle_limit": [
+        -45,
+        45
+      ],
+      "orientation": "indirect"
+    },
     "abs_y": {
       "offset": 0.0,
       "type": "XL-320",
@@ -99,6 +224,16 @@
         90
       ],
       "orientation": "direct"
+    },
+    "head_y": {
+      "offset": 0.0,
+      "type": "XL-320",
+      "id": 37,
+      "angle_limit": [
+        -45,
+        6
+      ],
+      "orientation": "indirect"
     },
     "l_shoulder_y": {
       "offset": -90.0,
