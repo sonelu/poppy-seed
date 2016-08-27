@@ -140,7 +140,7 @@ Guide the 2 long Dynamixel cables through the hole at the back of the neck behin
 
 ![_DSF9147.JPG](./img/_DSF9147.JPG)
 
-Gently close the head making sure that the cables do not misbehave and get into the way. In principle they should be micely through the middle of the head allowing you to align the holes with the screws and to secure eveything up:
+Gently close the head making sure that the cables do not misbehave and get into the way. In principle they should be nicely sitting through the middle of the head allowing you to align the holes with the screws and to secure eveything up:
 
 ![_DSF9148.JPG](./img/_DSF9148.JPG)
 
