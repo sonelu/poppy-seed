@@ -33,6 +33,7 @@ class StandPosition(InitRobot):
         # Goto to position 0 on all motors
         self.robot.goto_position(dict(zip((m.name for m in self.robot.motors), itertools.repeat(0))), 2, wait=True)
 
+        """
         # Specified some motor positions to keep the robot balanced
         self.robot.goto_position({'r_hip_z': -2,
                                   'l_hip_z': 2,
@@ -51,7 +52,8 @@ class StandPosition(InitRobot):
                                   'head_z': 0},
                                  3,
                                  wait=True)
-
+        """
+        
         # Restore the motor speed
         self.robot.power_up()
 
