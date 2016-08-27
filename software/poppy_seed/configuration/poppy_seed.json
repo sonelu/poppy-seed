@@ -67,7 +67,7 @@
   },
   "motors": {
     "l_hip_x": {
-      "offset": 0.0,
+      "offset": 36.16,
       "type": "XL-320",
       "id": 11,
       "angle_limit": [
@@ -91,10 +91,10 @@
       "type": "XL-320",
       "id": 13,
       "angle_limit": [
-        -104,
-        84
+        -84,
+        104
       ],
-      "orientation": "direct"
+      "orientation": "indirect"
     },
     "l_knee_y": {
       "offset": 0.0,
@@ -114,10 +114,10 @@
         -45,
         45
       ],
-      "orientation": "direct"
+      "orientation": "indirect"
     },
     "r_hip_x": {
-      "offset": 0.0,
+      "offset": 36.16,
       "type": "XL-320",
       "id": 21,
       "angle_limit": [
