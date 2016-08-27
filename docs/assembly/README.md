@@ -13,7 +13,7 @@ The assembly guides are structured by part:
 1. [Upper arms assembly](arms.md)
 2. [Legs assembly](legs.md)
 3. [Torso assembly](torso.md)
-4. Head assembly
-5. Putting all together
+4. [Head assembly](head.md)
+5. [Putting all together](final.md)
 
 Please note that some of the parts need electronics components ready. They will be mentioned in the detail assebbly instructions for that part.
