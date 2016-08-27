@@ -22,11 +22,13 @@ class PoppySeed(AbstractPoppyCreature):
 	def setup(cls, robot):
 		robot._primitive_manager._filter = partial(numpy.sum, axis=0)
 
+		"""
 		for m in robot.motors:
 			m.goto_behavior = 'dummy'
 
 		for m in robot.torso:
 			m.compliant_behavior = 'safe'
+		"""
 
         # basic primitives:
 		robot.attach_primitive(StandPosition(robot), 'stand_position')
