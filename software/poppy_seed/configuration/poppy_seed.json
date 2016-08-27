@@ -131,20 +131,20 @@
       "type": "XL-320",
       "id": 22,
       "angle_limit": [
-        -90,
-        25
+        -25,
+        90
       ],
-      "orientation": "indirect"
+      "orientation": "direct"
     },
     "r_hip_y": {
       "offset": 0.0,
       "type": "XL-320",
       "id": 23,
       "angle_limit": [
-        -85,
-        105
+        -105,
+        85
       ],
-      "orientation": "indirect"
+      "orientation": "direct"
     },
     "r_knee_y": {
       "offset": 0.0,
@@ -164,7 +164,7 @@
         -45,
         45
       ],
-      "orientation": "indirect"
+      "orientation": "direct"
     },
     "abs_y": {
       "offset": 0.0,
