@@ -7,6 +7,7 @@ from functools import partial
 from poppy.creatures import AbstractPoppyCreature
 
 from .primitives.posture import StandPosition, SitPosition
+from .primitives.safe import LimitTorque, TemperatureMonitor, VoltageMonitor
 """
 we'll deal with these later
 
@@ -32,4 +33,19 @@ class PoppySeed(AbstractPoppyCreature):
 
         # basic primitives:
 		robot.attach_primitive(StandPosition(robot), 'stand_position')
-		robot.attach_primitive(SitPosition(robot), 'sit_position')
+		#robot.attach_primitive(SitPosition(robot), 'sit_position')
+
+        # Safe primitives:
+        robot.attach_primitive(LimitTorque(robot), 'limit_torque')
+        robot.limit_torque.start()
+        if not robot.simulated:
+            sound_file = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                      'media', 'sounds', 'high_temperature.wav')
+            robot.attach_primitive(TemperatureMonitor(robot, sound=sound_file), 'temperature_monitoring')
+            robot.temperature_monitoring.start()
+
+        if not robot.simulated:
+            sound_file = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                      'media', 'sounds', 'low_voltage.wav')
+            robot.attach_primitive(VoltageMonitor(robot, sound=sound_file), 'voltage_monitoring')
+            robot.voltage_monitoring.start()
